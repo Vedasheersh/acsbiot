@@ -1,1 +1,7 @@
 specsheet files are the main files which need to be fed as input to BioPython for downloading PDBs
+
+## specsheet_xray has last column as PDB resolution which is missing in specsheet_nmr
+
+# General format of specsheet file:
+
+uniprotid_(most important ligand binding residue)_(experimental mutant) (+/-fitness score upon mutation) (PDBID) (resolution) 
